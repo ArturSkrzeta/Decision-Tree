@@ -15,5 +15,10 @@
   <li>When new sample comes in, then we start from the root node traversing tree untill the leaf node where we can assign a label.</li>
   <li>Based on the features of the sample we can define the labels, f.e. 1 or 0.</li>
   <li>On every split step we need to come up with <b>the best split value (when text feature)</b> or <b>the best split threshold</b> (when numeric feature).</li>
-  <li></li>
+  <li>Calculation:
+    <br>
+    1. <b>Entropy calculation</b> - measure of uncertainity for finding best split.<br>
+    2. <b>Infomation gain</b> - measure of how muhc informaciton child node gets from the split.<br>
+  </li>
+
 </ul>
