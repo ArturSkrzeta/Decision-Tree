@@ -15,8 +15,8 @@
   <li>Greedy search looping over all possible features and all possible threasholds of actual sampales.</li>
   <li>Calculation:
     <br>
-    1. <b>Entropy calculation</b> - measure of uncertainity for finding best split.<br>
-    2. <b>Infomation gain</b> - measure of how muhc informaciton child node gets from the split.<br>
+    - <b>Entropy calculation</b> - measure of uncertainity for finding best split.<br>
+    - <b>Infomation gain</b> - measure of how muhc informaciton child node gets from the split.<br>
   </li>
   <li>Saving the best split based on the best information gain at each node.</li>
   <li>While building the tree we need to apply some stopping criteria to prevent tree from growing any further:
