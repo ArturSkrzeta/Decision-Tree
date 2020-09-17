@@ -12,7 +12,7 @@
 
 <h3>Demo</h3>
 <ul>
-  <li>When new sample comes in, then we start from the root node traversing tree untill the leaf node where we can assigne a label.</li>
+  <li>When new sample comes in, then we start from the root node traversing tree untill the leaf node where we can assign a label.</li>
   <li>Based on the features of the sample we can define the labels, f.e. 1 or 0.</li>
   <li>On every split step we need to come up with <b>the best split value (when text feature)</b> or <b>the best split threshold</b> (when numeric feature).</li>
   <li></li>
