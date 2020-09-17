@@ -28,6 +28,12 @@
   <li>When leaf node reached, we take the most common class label at the node.</li>
 </ul>
 
+<h3>Label prediction for a new sample</h3>
+<ul>
+  <li>Traversing tree recursively.</li>
+  <li>During recursion, it takes a look at the node's best split feature aginst a new sample feature.</li>
+  <li>Moving on to left or right node depending on the test condition for a new sample feature.</li>
+</ul>
 
 <h3>Demo</h3>
 <ul>
