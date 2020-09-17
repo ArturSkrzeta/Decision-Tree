@@ -12,7 +12,7 @@
 
 <h3>Training Model</h3>
 <ul>
-  <li>Greedy search looping over all possible features and all possible threasholds.</li>
+  <li>Greedy search looping over all possible features and all possible threasholds of actual sampales.</li>
   <li>Calculation:
     <br>
     1. <b>Entropy calculation</b> - measure of uncertainity for finding best split.<br>
