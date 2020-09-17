@@ -5,7 +5,7 @@
   <li>It starts with the root node that represents the entire undivided data labels.</li>
   <li>The root node branches off to a number of solutions based on a sample features condition.</li>
   <li>Decision tree keeps on growing with increasing number of decisions and conditions.</li>
-  <li>We need to quantify how much a question reduces the uncertainity using a information gain concept - selecting the best question to ask at each point.</li>
+  <li>We need to quantify how much a question reduces the uncertainity uusing the information gain concept - selecting the best question to ask at each point.</li>
   <li>Recursively building the tree on each of the new node continuing diving the data untill there are no further questions to ask reaching a leaf node.</li>
   <li>Questions need to be related to the nature of the dataset.</li>
 </ul>
@@ -16,7 +16,7 @@
   <li>Calculation:
     <br>
     - <b>Entropy calculation</b> - measure of uncertainity for finding best split.<br>
-    - <b>Infomation gain</b> - measure of how muhc informaciton child node gets from the split.<br>
+    - <b>Infomation gain</b> - measure of how much informaction child node gets from the split.<br>
   </li>
   <li>Saving the best split based on the best information gain at each node.</li>
   <li>While building the tree we need to apply some stopping criteria to prevent tree from growing any further:
