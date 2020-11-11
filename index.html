@@ -66,16 +66,17 @@
 										<ul>
 											<li>Decision Tree starts with the root that reporesents all samples already labeled with two different categories.</li>
 										  <li>On each node of decision tree, there is an <b>entropy</b> being calculated</li>
-											<li>Entropy is the measure of randomness in the sample:
+											<li>Entropy is the measure of randomness in a group of samples:
 												<br>
-												- the lower entropy, the lower uncertainity in the sample,<br>
-												- when sample is uniform (elements of a sample can be classified by the same label) there is no randomness -> entropy is very low,<br>
-												- when there is 50/50 randomness (50% of elements are labeled as I. and second 50% elements are labeled as II.) -> entropy equals 1,<br>
-												- the lower entropy of a sample, the higher information gain from it.
+												- the lower entropy, the lower uncertainity in a group of samples,<br>
+												- when group of samples is uniform (all samples can be classified by the same label) there is no randomness -> entropy is very low,<br>
+												- when there is 50/50 randomness (50% of samples are labeled as I. and second 50% of samples are labeled as II.) -> entropy equals 1,<br>
+												- the lower entropy of a group of samples, the higher information gain from it.
 											</li>
-											<li>We want to gain as much information as possible from each node of decision tree.</li>
+											<li>We want to gain as much information as possible from each node (group of samples) in decision tree.</li>
 											<li>This is possible by keeping setting samples with the lowest entropy from the beginning of a tree all the way down to leaves (last nodes where branch ends).</li>
 											<li>We can reach the possible lowest entropy node by node coming up with the best split value (when text feature) or the best split threshold (when numeric feature).</li>
+										</ul>
 
 										<h5>Model Learning:</h5>
 										<ul>
