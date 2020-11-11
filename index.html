@@ -50,16 +50,19 @@
 										<h3>Intro</h3>
 										<p>Decision Tree algorithm </p>
 										<ul>
-											<li>Decision Tree starts with the root that reporesents all features already labeled betweem two categories.</li>
-										  <li>On each node of decisiton tree, there is <b>entropy</b> being calculated - the measure of randomness in the sample:
+											<li>Data sets is consisted of sammples. Each sample have set of features that allows label the sample with a defined category.</li>
+											<li>Decision Tree starts with the root that reporesents all features already labeled as two different categories.</li>
+										  <li>On each node of decision tree, there is <b>entropy</b> being calculated - the measure of randomness in the sample:
 												<br>
 												- the lower entropy ,the lower uncertainity of the sample,<br>
-												- when sample is uniform (elements of a sample can be classified by one label) there is no randomness -> entropy is very low,<br>
+												- when sample is uniform (elements of a sample can be classified by the same label) there is no randomness -> entropy is very low,<br>
 												- when there is 50/50 randomness (50% of elements are labeled as I. and second 50% elements are labeled as II.) -> entropy equals 1,<br>
 												- the lower entropy of a sample, the higher information gain from it.
 											</li>
 											<li>We want to gain as much information as possible from each node of decision tree.</li>
 											<li>This is possible by keeping setting samples with the lowest entropy from the beginning of a tree all the way down to leaves (last nodes where branch ends).</li>
+											<li>We can reach the possible lowest entropy node by node coming up with the best split value (when text feature) or the best split threshold (when numeric feature).</li>
+											<li>When new sample comes in, then we start from the root node traversing tree through a set of conditions untill the leaf node where we can assign a label to that sample.</li>
 										</ul>
 									</header>
 								</div>
