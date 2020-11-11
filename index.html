@@ -49,7 +49,7 @@
 										<h2>Decision Tree as Supervised Learning</h2>
 										<h3>Intro</h3>
 
-										<p>Datasets:</p>
+										<h5>Datasets:</h5>
 										<ul>
 											<li>Data consists of samples.</li>
 											<li>Each sample is a collection of features.</li>
@@ -62,7 +62,7 @@
 											</li>
 										</ul>
 
-										<p>Algorithm:</p>
+										<h5>Algorithm:</h5>
 										<ul>
 											<li>Decision Tree starts with the root that reporesents all samples already labeled with two different categories.</li>
 										  <li>On each node of decision tree, there is an <b>entropy</b> being calculated</li>
@@ -76,8 +76,13 @@
 											<li>We want to gain as much information as possible from each node of decision tree.</li>
 											<li>This is possible by keeping setting samples with the lowest entropy from the beginning of a tree all the way down to leaves (last nodes where branch ends).</li>
 											<li>We can reach the possible lowest entropy node by node coming up with the best split value (when text feature) or the best split threshold (when numeric feature).</li>
-											<li>When new sample comes in, then we start from the root node traversing tree through a set of conditions untill the leaf node where we can assign a label to that sample.</li>
+
+										<h5>Model Learning:</h5>
+										<ul>
+											<li>When new sample comes in, then we start from the root node traversing tree</li>
+											<li>Samples go through a set of conditions(split values) untill the leaf node where we can assign a label to the sample.</li>
 										</ul>
+
 									</header>
 								</div>
 							</section>
