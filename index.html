@@ -48,10 +48,23 @@
 									<header class="major">
 										<h2>Decision Tree as Supervised Learning</h2>
 										<h3>Intro</h3>
-										<p>Decision Tree algorithm </p>
+
+										<p>Datasets:</p>
 										<ul>
-											<li>Data sets is consisted of sammples. Each sample have set of features that allows label the sample with a defined category.</li>
-											<li>Decision Tree starts with the root that reporesents all features already labeled as two different categories.</li>
+											<li>Data consists of samples.</li>
+											<li>Each sample is a collection of features.</li>
+											<li>Because of kind of features, the sample can be labeled with defined category:<br>
+												<code>sample_1: ['feature_1', 'feature_2', 'feature_3', 'feature_4']</code><br>
+												<code>sample_2: ['feature_5', 'feature_6', 'feature_7', 'feature_8']</code><br>
+												<code>labels: ['label_1','label_2']</code><br>
+												<code>sample_1 can be labeled with label_1</code><br>
+												<code>sample_2 can be labeled with label_2</code>
+											</li>
+										</ul>
+
+										<p>Algorithm:</p>
+										<ul>
+											<li>Decision Tree starts with the root that reporesents all samples already labeled as two different categories.</li>
 										  <li>On each node of decision tree, there is <b>entropy</b> being calculated - the measure of randomness in the sample:
 												<br>
 												- the lower entropy ,the lower uncertainity of the sample,<br>
