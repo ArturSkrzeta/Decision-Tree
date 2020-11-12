@@ -141,7 +141,7 @@
 											<br>
 											- 'Bachelor' in education colum will be replaced with 0,<br>
 											- 'Advanced' in english colum wil be replaced with 0,<br>
-											- 'above 2 years'in experience column will be replaced with 3 etc.
+											- 'above 2 years' in experience column will be replaced with 3 etc.
 										</li>
 									</ul>
 
@@ -152,7 +152,7 @@
 										<li>This is the historical records of candidates in the past.</li>
 										<li>Historical dataset shows how decisions were made based on different candidates with different set of features.</li>
 										<li>Having view on historical decisions we can learn model how to make future decison for next candidates.</li>
-										<li>Model receiving new candidate's features makes a decision relying on what it learne from past which is recorded in the data input above.</li>
+										<li>Model receiving new candidate's features makes a decision relying on what it learnt from past which is recorded in the data input above.</li>
 									</ul>
 
 									<h5>Converted Data:</h5>
@@ -164,7 +164,24 @@
 
 									<h5>Making Decision</h5>
 									<ul>
-										<li>...</li>
+										<li>Providing new candidate's future like below:
+											<br>&nbsp&nbsp&nbsp
+											<code>new_data = [</code>
+											<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											<code>u_education['Student'],</code>
+											<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+												<code>u_english['Intermediate'],</code>
+												<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+												<code>u_experience['1 year'],</code>
+												<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+												<code>u_interview['neutral']</code>
+												<br>&nbsp&nbsp&nbsp
+											<code>]</code>
+										</li>
+										<li>We get the decision from the tree:
+											<br>&nbsp&nbsp&nbsp
+											<code>['No']</code>
+										</li>
 									</ul>
 
 								</div>
