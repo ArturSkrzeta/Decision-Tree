@@ -1,0 +1,31 @@
+education,english,experience,interview,hired
+Student,Intermediate,1 year,neutral,No
+Student,Advanced,1 year,neutral,Yes
+Student,Intermediate,No experience,under expectation,No
+Technician,Intermediate,1 - 2 years,excellent,No
+Student,Advanced,No experience,excellent,Yes
+Master,Advanced,above 2 years,neutral,Yes
+Master,Intermediate,1 - 2 years,neutral,No
+Technician,Intermediate,No experience,under expectation,No
+Technician,Native,above 2 years,excellent,Yes
+Bachelor,Intermediate,1 year,good,No
+Bachelor,Native,above 2 years,good,Yes
+Technician,Intermediate,1 year,neutral,Yes
+Master,Native,No experience,good,Yes
+Master,Advanced,1 - 2 years,good,No
+Bachelor,Native,1 year,under expectation,No
+Bachelor,Advanced,No experience,good,Yes
+Student,Native,above 2 years,good,Yes
+Student,Advanced,1 year,excellent,No
+Technician,Native,No experience,good,Yes
+Student,Intermediate,1 - 2 years,excellent,No
+Student,Native,No experience,neutral,Yes
+Technician,Native,No experience,excellent,Yes
+Bachelor,Intermediate,1 - 2 years,good,No
+Master,Advanced,No experience,under expectation,No
+Technician,Native,No experience,excellent,Yes
+Master,Native,1 - 2 years,neutral,Yes
+Technician,Native,No experience,neutral,No
+Bachelor,Advanced,1 - 2 years,excellent,Yes
+Student,Intermediate,1 - 2 years,good,No
+Master,Native,1 year,good,Yes
