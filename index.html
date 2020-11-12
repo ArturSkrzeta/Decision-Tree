@@ -94,7 +94,9 @@
 									<h3>Features</h3>
 									<p>App includes following features:</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-check">...</li>
+										<li class="icon solid fa-check">DecisionTreeClassifier</li>
+										<li class="icon solid fa-check">SkLearn</li>
+										<li class="icon solid fa-check">Pandas</li>
 									</ul>
 								</div>
 							</section>
@@ -103,9 +105,56 @@
 							<section id="three">
 								<div class="container">
 									<h3>Demo</h3>
+									<h5>Dataset:</h5>
 									<ul>
-										<li>...</li>
+										<li>Data set is a collections of candidate's skills.</li>
+										<li>There are 4 features in each sample that impact the final decision of candidate hiring (this example is completely random):
+											<br>
+											- first feature: <b>education</b>,<br>
+											- second feature: <b>english</b>,<br>
+											- third feature: <b>experience</b>,<br>
+											- forth feautre: <b>interview</b>.
+										</li>
+										<li>Depending on values of each featre decision tree returns yes or no.</li>
 									</ul>
+
+									<h5>Features:</h5>
+									<ul>
+										<li>For <b>'education'</b> feature there are values:
+											<br>&nbsp&nbsp&nbsp
+											<code>{'Bachelor': 0, 'Master': 1, 'Student': 2, 'Technician': 3}</code>
+										</li>
+										<li>For <b>'english'</b> feature there are values:
+											<br>&nbsp&nbsp&nbsp
+											<code>{'Advanced': 0, 'Intermediate': 1, 'Native': 2}</code>
+										</li>
+										<li>For <b>'experience'</b> feature there are values:
+											<br>&nbsp&nbsp&nbsp
+											<code>{'1 - 2 years': 0, '1 year': 1, 'No experience': 2, 'above 2 years': 3}</code>
+										</li>
+										<li>For <b>'interview'</b> feature there are values:
+											<br>&nbsp&nbsp&nbsp
+											<code>{'excellent': 0, 'good': 1, 'neutral': 2, 'under expectation': 3}</code>
+										</li>
+										<li>Above curly braces are so-called dictionaries which pairs feature value with a number.</li>
+										<li>The numbers are very important because we need to do the convertions from text values into numeric:
+											<br>
+											- 'Bachelor' in education colum will be replaced with 0,<br>
+											- 'Advanced' in english colum wil be replaced with 0,<br>
+											- 'above 2 years'in experience column will be replaced with 3 etc.
+										</li>
+									</ul>
+
+									<h5>Raw Data:</h5>
+									<img src="images/raw.JPG" width="500">
+
+									<h5>Converted Data:</h5>
+									<img src="images/converted.JPG" width="390">
+									<ul>
+										<li>Text values are replaced with corresponding numeric values due to dicitonaries above.</li>
+										<li>This conversion is necessary for machine learning which accepts only numbers,</li>
+									</ul>
+
 								</div>
 							</section>
 
@@ -116,7 +165,8 @@
 									<h3>Setup</h3>
 									<p>Script requires libraries installation:</p>
 									<ul>
-										<li>pip install numpy</li>
+										<li>pip install pandas</li>
+										<li>pip install sklearn</li>
 									</ul>
 								</div>
 							</section>
@@ -124,7 +174,7 @@
 							<section id="five">
 								<div class="container">
 									<h3>Source Code</h3>
-									<p>You can view the source code: <a href="">HERE</a></p>
+									<p>You can view the source code: <a href="https://github.com/ArturSkrzeta/Decision-Tree-as-Supervised-Learning/tree/master/project">HERE</a></p>
 									<p>&nbsp</p>
 								</div>
 							</section>
